@@ -1,0 +1,85 @@
+body {
+    margin: 1px;
+}
+
+.container {
+    
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    max-width: 575px;
+    height: 385px;
+    background: #2f3966;
+    margin-left: 30px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    color: #EEE;
+    text-shadow: 1px 1px black;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.score {
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: #F94F6D;
+    margin: 20px auto 25px auto;
+    background-color: #080007;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+    width: 117px;
+    height: 120px;
+    border: 0px;
+    line-height: 130px;
+}
+
+.increment {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inc_butt {
+    background: #1B244A;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    height: 45px;
+    width: 45px;
+    padding: 9px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.inc_butt:hover {
+    transform: scale(1.1);
+}
+
+.new_game {
+    margin-top: 10px;
+    background: #1B244A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #9AABD8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 9px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.new_game:hover {
+    transform: scale(1.1);
+}
